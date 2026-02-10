@@ -1,0 +1,114 @@
+   0.125027500s  INFO prepare_target{force=false package_id=cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend) target="cellular_automata_backend"}: cargo::core::compiler::fingerprint: fingerprint error for cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cellular_automata_backend", ["lib"], "D:\\Backups\\rust\\CellAuto\\backend\\src\\lib.rs", Edition2021) }
+   0.125086000s  INFO prepare_target{force=false package_id=cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend) target="cellular_automata_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Backups\rust\CellAuto\backend\target\debug\.fingerprint\cellular-automata-backend-31bcf6f72cc2279f\lib-cellular_automata_backend`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.162859800s  INFO prepare_target{force=false package_id=cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend) target="cellular_automata_backend"}: cargo::core::compiler::fingerprint: fingerprint error for cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("cellular_automata_backend", ["lib"], "D:\\Backups\\rust\\CellAuto\\backend\\src\\lib.rs", Edition2021) }
+   0.162885600s  INFO prepare_target{force=false package_id=cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend) target="cellular_automata_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Backups\rust\CellAuto\backend\target\debug\.fingerprint\cellular-automata-backend-f3d952ff0d84b050\test-lib-cellular_automata_backend`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.163719600s  INFO prepare_target{force=false package_id=cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend) target="cellular-automata-backend"}: cargo::core::compiler::fingerprint: fingerprint error for cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend)/Check { test: false }/TargetInner { name: "cellular-automata-backend", doc: true, ..: with_path("D:\\Backups\\rust\\CellAuto\\backend\\src\\main.rs", Edition2021) }
+   0.163736300s  INFO prepare_target{force=false package_id=cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend) target="cellular-automata-backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Backups\rust\CellAuto\backend\target\debug\.fingerprint\cellular-automata-backend-5238a9200d62fb6f\bin-cellular-automata-backend`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.164371800s  INFO prepare_target{force=false package_id=cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend) target="cellular-automata-backend"}: cargo::core::compiler::fingerprint: fingerprint error for cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend)/Check { test: true }/TargetInner { name: "cellular-automata-backend", doc: true, ..: with_path("D:\\Backups\\rust\\CellAuto\\backend\\src\\main.rs", Edition2021) }
+   0.164387700s  INFO prepare_target{force=false package_id=cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend) target="cellular-automata-backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Backups\rust\CellAuto\backend\target\debug\.fingerprint\cellular-automata-backend-c5c845b16a3cc3d7\test-bin-cellular-automata-backend`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking cellular-automata-backend v0.1.0 (D:\Backups\rust\CellAuto\backend)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.17s
